@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\arzaq\\.nuget\\packages\\": {}
+    "C:\\Users\\Wawan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
+      "projectUniqueName": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
       "projectName": "EcoRecycle",
-      "projectPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
-      "packagesPath": "C:\\Users\\arzaq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\obj\\",
+      "projectPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
+      "packagesPath": "C:\\Users\\Wawan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\EcoRecycle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\arzaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
