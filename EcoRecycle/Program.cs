@@ -12,22 +12,30 @@
         Console.WriteLine("2.Edit profil");
         Console.WriteLine("3.Lihat Poin");
 
-        Console.WriteLine("Masukkan nomor menu : ");
-        string inputMenu = Console.ReadLine();
-        switch (inputMenu)
+        try
         {
-            case "1":
-                Console.WriteLine("Jenis sampah di vending machine");
-                break;
-            case "2":
-                Console.WriteLine("Edit profil");
-                break;
-            case "3":
-                Console.WriteLine("Lihat poin");
-                break;
-            default:
-                Console.WriteLine("Nomor menu tidak tersedia");
-                break;
+            Console.WriteLine("Masukkan nomor menu : ");
+            string inputMenu = Console.ReadLine();
+            int inputMenuInt = Convert.ToInt32(inputMenu);
+            switch (inputMenuInt)
+            {
+                case 1:
+                    Console.WriteLine("Jenis sampah di vending machine");
+                    break;
+                case 2:
+                    Console.WriteLine("Edit profil");
+                    break;
+                case 3:
+                    Console.WriteLine("Lihat poin");
+                    break;
+                default:
+                    Console.WriteLine("Nomor menu tidak tersedia");
+                    break;
+            }
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
         }
     }
 }
