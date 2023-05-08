@@ -1,0 +1,12 @@
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\bin\Debug\net6.0\KapasitasVendingMachine.deps.json
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\bin\Debug\net6.0\KapasitasVendingMachine.dll
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\bin\Debug\net6.0\KapasitasVendingMachine.pdb
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\KapasitasVendingMachine.csproj.AssemblyReference.cache
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\KapasitasVendingMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\KapasitasVendingMachine.AssemblyInfoInputs.cache
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\KapasitasVendingMachine.AssemblyInfo.cs
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\KapasitasVendingMachine.csproj.CoreCompileInputs.cache
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\KapasitasVendingMachine.dll
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\refint\KapasitasVendingMachine.dll
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\KapasitasVendingMachine.pdb
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\KapasitasVendingMachine\obj\Debug\net6.0\ref\KapasitasVendingMachine.dll

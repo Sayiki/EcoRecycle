@@ -2,17 +2,17 @@
 {
     public class Kapasitas
     {
-        public static int totalKapasitas<T, I>(T total, I max)
+        public static int totalKapasitas()
         {
-            max = 6;
-            total = 0;
-            if (total < max)
+            int max = 6;
+            int total = 0;
+            if (total <= max)
             {
                 total = total + 1;
             }
             else
             {
-                Console.WriteLine("Vending machine penuh");
+                total = max;
             }
             return total;
         }
