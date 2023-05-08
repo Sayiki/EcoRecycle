@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "KapasitasVendingMachine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/KapasitasVendingMachine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KapasitasVendingMachine.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "KapasitasVendingMachine/1.0.0": {
+      "type": "project",
+      "path": "../KapasitasVendingMachine/KapasitasVendingMachine.csproj",
+      "msbuildProject": "../KapasitasVendingMachine/KapasitasVendingMachine.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "KapasitasVendingMachine >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Wawan\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj": {
+              "projectPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
