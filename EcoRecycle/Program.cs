@@ -29,28 +29,10 @@ class Program
 
 
         List<string> materials = new List<string>();
+        
+        MaterialInput inputmat = new MaterialInput();
 
-        Console.WriteLine("\nInput material metal/plastic/aluminium/glass/paper/cardboard (type '0' to exit)");
-        string input = Console.ReadLine();
-
-        while (input != "0")
-        {
-            materials.Add(input);
-            Console.WriteLine("Material yang dimasukkan adalah " + input);
-            input = Console.ReadLine();
-        }
-
-        Console.WriteLine("");
-
-        Console.Write("Material lists: ");
-
-        if (materials.Count > 0)
-        {
-            Console.Write(string.Join(", ", materials));
-        }
-
-        Console.WriteLine();
-
+        inputmat.InputMaterial();
 
         Console.WriteLine("Press any key to exit.");
         Console.ReadKey();
