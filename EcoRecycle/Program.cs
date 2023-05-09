@@ -22,11 +22,42 @@ class Program
         // Create registration form with appropriate data types
         Register<string> regForm = new Register<string>(username, password, confirmPassword, email);
 
+        Console.WriteLine("");
+
         // Register user
         regForm.RegisterUser();
 
-        // Wait for user input before closing console window
+
+        List<string> materials = new List<string>();
+
+        Console.WriteLine("\nInput material metal/plastic/aluminium/glass/paper/cardboard (type '0' to exit)");
+        string input = Console.ReadLine();
+
+        while (input != "0")
+        {
+            materials.Add(input);
+            Console.WriteLine("Material yang dimasukkan adalah " + input);
+            input = Console.ReadLine();
+        }
+
+        Console.WriteLine("");
+
+        Console.Write("Material lists: ");
+
+        if (materials.Count > 0)
+        {
+            Console.Write(string.Join(", ", materials));
+        }
+
+        Console.WriteLine();
+
+
         Console.WriteLine("Press any key to exit.");
         Console.ReadKey();
+
+
+
+
+
     }
 }

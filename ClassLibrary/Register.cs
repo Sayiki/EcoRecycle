@@ -26,18 +26,18 @@ public class Register<T>
     // Registration method
     public void RegisterUser()
     {
-        // Check if all fields are filled
+        // Check ketika username, password, confirmpassword, email valid
         if (string.IsNullOrEmpty(username.ToString()) || string.IsNullOrEmpty(password.ToString()) ||
             string.IsNullOrEmpty(confirmPassword.ToString()) || string.IsNullOrEmpty(email.ToString()))
         {
             Console.WriteLine("Please fill in all fields.");
         }
-        // Check if password and confirm password match
+        // Check ketika password dan confirmpassword sama
         else if (!password.Equals(confirmPassword))
         {
             Console.WriteLine("Passwords do not match.");
         }
-        // Check if email is valid
+        // Check ketika email  valid
         else if (!IsValidEmail(email.ToString()))
         {
             Console.WriteLine("Invalid email address.");
