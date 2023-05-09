@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EcoRecycle/1.0.0": {
+        "dependencies": {
+          "ArzaqLibrary": "1.0.0"
+        },
+        "runtime": {
+          "EcoRecycle.dll": {}
+        }
+      },
+      "ArzaqLibrary/1.0.0": {
+        "runtime": {
+          "ArzaqLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EcoRecycle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArzaqLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

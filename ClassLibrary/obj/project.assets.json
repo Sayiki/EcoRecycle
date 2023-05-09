@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "ArzaqLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ArzaqLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ArzaqLibrary.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "ArzaqLibrary/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibrary/ArzaqLibrary.csproj",
-      "msbuildProject": "../ClassLibrary/ArzaqLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "ArzaqLibrary >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\arzaq\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
-      "projectName": "EcoRecycle",
-      "projectPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
+      "projectUniqueName": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\ClassLibrary\\ArzaqLibrary.csproj",
+      "projectName": "ArzaqLibrary",
+      "projectPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\ClassLibrary\\ArzaqLibrary.csproj",
       "packagesPath": "C:\\Users\\arzaq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\obj\\",
+      "outputPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arzaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\ClassLibrary\\ArzaqLibrary.csproj": {
-              "projectPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\ClassLibrary\\ArzaqLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
