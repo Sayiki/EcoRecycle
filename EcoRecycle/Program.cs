@@ -55,7 +55,6 @@ public class Program
             for(int i = 0; i <= 6; i++)
             {
                 string masukkanSampah = Console.ReadLine();
-                Console.WriteLine(masukkanSampah);
             }
         }
     }
