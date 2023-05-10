@@ -7,27 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "EcoRecycle/1.0.0": {
-        "dependencies": {
-          "KapasitasVendingMachine": "1.0.0"
-        },
         "runtime": {
           "EcoRecycle.dll": {}
-        }
-      },
-      "KapasitasVendingMachine/1.0.0": {
-        "runtime": {
-          "KapasitasVendingMachine.dll": {}
         }
       }
     }
   },
   "libraries": {
     "EcoRecycle/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "KapasitasVendingMachine/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

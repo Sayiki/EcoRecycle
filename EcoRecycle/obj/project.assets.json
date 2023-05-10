@@ -1,45 +1,26 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "KapasitasVendingMachine/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/KapasitasVendingMachine.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/KapasitasVendingMachine.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "KapasitasVendingMachine/1.0.0": {
-      "type": "project",
-      "path": "../KapasitasVendingMachine/KapasitasVendingMachine.csproj",
-      "msbuildProject": "../KapasitasVendingMachine/KapasitasVendingMachine.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "KapasitasVendingMachine >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Wawan\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
+      "projectUniqueName": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
       "projectName": "EcoRecycle",
-      "projectPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
-      "packagesPath": "C:\\Users\\Wawan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\EcoRecycle\\obj\\",
+      "projectPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Wawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj": {
-              "projectPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

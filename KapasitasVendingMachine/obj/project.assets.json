@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Wawan\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
+      "projectUniqueName": "D:\\Folder kpl\\tp9\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
       "projectName": "KapasitasVendingMachine",
-      "projectPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
-      "packagesPath": "C:\\Users\\Wawan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\obj\\",
+      "projectPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\KapasitasVendingMachine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Wawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
