@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ArzaqLibrary;
-
+using System.Linq;
+using System.Runtime.CompilerServices;
 
 class Program
 {
@@ -27,12 +28,14 @@ class Program
         // Register user
         regForm.RegisterUser();
 
-
+        // Membuat list material
         List<string> materials = new List<string>();
-        
-        MaterialInput inputmat = new MaterialInput();
 
-        inputmat.InputMaterial();
+        // Membuat new variable materialInput
+        MaterialInput materialInput = new MaterialInput();
+
+        // Memanggil method InputMaterial
+        materialInput.InputMaterial();
 
         Console.WriteLine("Press any key to exit.");
         Console.ReadKey();

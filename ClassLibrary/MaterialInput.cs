@@ -17,7 +17,7 @@ namespace ArzaqLibrary
 
         public void InputMaterial()
         {
-            Console.WriteLine("Deposit material metal/plastic/aluminium/glass/paper/cardboard (type '0' to exit)");
+            Console.WriteLine("Deposit material logam/plastik/aluminium/kaca/kertas/kardus (type '0' to exit)");
             string input = Console.ReadLine();
 
             while (input != "0")
@@ -53,12 +53,12 @@ namespace ArzaqLibrary
         {
             switch (material.ToLower())
             {
-                case "metal":
-                case "plastic":
-                case "paper":
-                case "cardboard":
+                case "logam":
+                case "plastik":
+                case "kertas":
+                case "kardus":
                 case "aluminium":
-                case "glass":
+                case "kaca":
                     return true;
                 default:
                     return false;
