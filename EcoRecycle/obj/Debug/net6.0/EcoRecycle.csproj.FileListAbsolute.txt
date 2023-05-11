@@ -16,3 +16,4 @@ C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\EcoRecycle\obj\Debug\net6.0\
 C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.pdb
 C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.genruntimeconfig.cache
 C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\EcoRecycle\obj\Debug\net6.0\ref\EcoRecycle.dll
+C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\EcoRecycle\bin\Debug\net6.0\EcoRecycle.dll.config

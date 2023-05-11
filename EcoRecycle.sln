@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoRecycle", "EcoRecycle\EcoRecycle.csproj", "{0FBF3790-3648-4B43-BCF1-78FB6EEE6E5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KapasitasVendingMachine", "KapasitasVendingMachine\KapasitasVendingMachine.csproj", "{77D9CBF8-A1B3-41D8-957A-42A28FE3661B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KapasitasVendingMachine", "KapasitasVendingMachine\KapasitasVendingMachine.csproj", "{77D9CBF8-A1B3-41D8-957A-42A28FE3661B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
