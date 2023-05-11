@@ -14,10 +14,10 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
-      "projectName": "KapasitasVendingMachine",
+      "projectName": "ListSampahVendingMachine",
       "projectPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
       "packagesPath": "C:\\Users\\Wawan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\obj\\",
+      "outputPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\ListSampahVendingMachine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Wawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
