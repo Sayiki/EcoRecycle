@@ -19,36 +19,52 @@ namespace TUBES_KPL_2023
 
         public void ProcessInput(string input)
         {
-            switch (currentState)
+            try
             {
-                case State.Idle:
-       
-                    if (input == "logout")
-                    {
-                        Console.WriteLine("Apakah anda yakin ingin logout? (y/n)");
-                        currentState = State.Confirming;
-                    }
-                    break;
+                switch (currentState)
+                {
+                    case State.Idle:
+                        if (input == null)
+                        {
+                            throw new ArgumentNullException(nameof(input));
+                        }
 
-                case State.Confirming:
-                    if (input == "y")
-                    {
-                        Console.WriteLine("Anda telah logout.");
-                        currentState = State.LoggingOut;
-                    }
-                    else if (input == "n")
-                    {
-                        Console.WriteLine("Logout dibatalkan.");
-                        currentState = State.Idle;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Masukkan y atau n.");
-                    }
-                    break;
+                        if (input.Trim().ToLower() == "logout")
+                        {
+                            Console.WriteLine("Apakah anda yakin ingin logout? (iya/tidak)");
+                            currentState = State.Confirming;
+                        }
+                        break;
 
-                case State.LoggingOut:
-                    break;
+                    case State.Confirming:
+                        if (input == null)
+                        {
+                            throw new ArgumentNullException(nameof(input));
+                        }
+
+                        if (input.Trim().ToLower() == "iya")
+                        {
+                            Console.WriteLine("Anda telah Logout.");
+                            currentState = State.LoggingOut;
+                        }
+                        else if (input.Trim().ToLower() == "tidak")
+                        {
+                            Console.WriteLine("Logout dibatalkan.");
+                            currentState = State.Idle;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Masukkan iya atau tidak !");
+                        }
+                        break;
+
+                    case State.LoggingOut:
+                        break;
+                }
+            }
+            catch (ArgumentNullException ex)
+            {
+                Console.WriteLine("Terjadi kesalahan: {0}", ex.Message);
             }
         }
     }

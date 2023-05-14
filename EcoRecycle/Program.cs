@@ -40,7 +40,10 @@ class Program
                 logout.ProcessInput(input);
 
             } while (logout.currentState != Logout.State.LoggingOut);
+                Console.ReadLine();
         }
+
+    
     
 }
 
