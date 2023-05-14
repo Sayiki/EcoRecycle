@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZhP3mdwuAF9pRcsUzc4JsURvFHIzaN49DCi341wPzeAFh1r7lVa9Cys5VLfq1WiiqsjUc8SYFZalBt2JphNmmg==",
+  "success": false,
+  "projectFilePath": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycleTests4\\EcoRecycleTests4.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "MSTest.TestAdapter"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "MSTest.TestFramework"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "coverlet.collector"
+    }
+  ]
+}

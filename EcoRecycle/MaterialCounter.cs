@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class MaterialCounter
+public class MaterialCounter
 {
     // Dictionary untuk menyimpan jumlah sampah
     private Dictionary<string, int> jumlahSampah = new Dictionary<string, int>();
@@ -39,5 +39,10 @@ class MaterialCounter
         {
             Console.WriteLine($"{item.Key}: {item.Value}");
         }
+    }
+
+    public object GetJumlahSampah()
+    {
+        throw new NotImplementedException();
     }
 }

@@ -42,8 +42,6 @@ class Program
             } while (logout.currentState != Logout.State.LoggingOut);
                 Console.ReadLine();
         }
-
-    
-    
+        
 }
 
