@@ -7,6 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
+
+
         // Get user input
         Console.WriteLine("Enter username: ");
         string username = Console.ReadLine();
@@ -14,7 +16,7 @@ class Program
         Console.WriteLine("Enter password: ");
         string password = Console.ReadLine();
 
-        Console.WriteLine("Confirm password: ");
+        Console.WriteLine("Confirm password: ");  
         string confirmPassword = Console.ReadLine();
 
         Console.WriteLine("Enter email: ");
@@ -36,6 +38,11 @@ class Program
 
         // Memanggil method InputMaterial
         materialInput.InputMaterial();
+
+        Console.WriteLine("");
+
+        // Print list
+        materialInput.PrintMaterialList();
 
         Console.WriteLine("Press any key to exit.");
         Console.ReadKey();

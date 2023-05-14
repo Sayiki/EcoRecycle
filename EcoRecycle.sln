@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoRecycle", "EcoRecycle\EcoRecycle.csproj", "{0FBF3790-3648-4B43-BCF1-78FB6EEE6E5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArzaqLibrary", "ClassLibrary\ArzaqLibrary.csproj", "{94D65BBA-CDD8-4760-B8BE-353C88FEE6FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArzaqLibrary", "ClassLibrary\ArzaqLibrary.csproj", "{94D65BBA-CDD8-4760-B8BE-353C88FEE6FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArzaqLibraryTests", "ArzaqLibraryTests\ArzaqLibraryTests.csproj", "{9774D4B3-090A-4C40-8E9F-D3D5EE8BDFD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{94D65BBA-CDD8-4760-B8BE-353C88FEE6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94D65BBA-CDD8-4760-B8BE-353C88FEE6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94D65BBA-CDD8-4760-B8BE-353C88FEE6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9774D4B3-090A-4C40-8E9F-D3D5EE8BDFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9774D4B3-090A-4C40-8E9F-D3D5EE8BDFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9774D4B3-090A-4C40-8E9F-D3D5EE8BDFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9774D4B3-090A-4C40-8E9F-D3D5EE8BDFD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
