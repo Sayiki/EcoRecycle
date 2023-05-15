@@ -9,11 +9,11 @@ class Program
         // Membuat objek MaterialCounter
         MaterialCounter counter = new MaterialCounter();
 
-        // Meminta pengguna memasukkan jenis sampah yang masuk, ketik 'exit' untuk keluar
+        // Meminta pengguna memasukkan sampah, ketik 'exit' untuk keluar
         string ans = "";
         while (ans != "exit")
         {
-            Console.Write("Masukkan sampah yang masuk (ketik 'exit' untuk keluar): ");
+            Console.Write("Masukkan sampah (ketik 'exit' untuk keluar): ");
             ans = Console.ReadLine();
 
             if (ans != "exit")
