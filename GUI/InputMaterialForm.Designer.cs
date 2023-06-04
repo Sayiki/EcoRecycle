@@ -45,7 +45,7 @@
             // 
             // textBox_inputmaterial
             // 
-            this.textBox_inputmaterial.Location = new System.Drawing.Point(148, 161);
+            this.textBox_inputmaterial.Location = new System.Drawing.Point(108, 161);
             this.textBox_inputmaterial.Name = "textBox_inputmaterial";
             this.textBox_inputmaterial.Size = new System.Drawing.Size(160, 20);
             this.textBox_inputmaterial.TabIndex = 1;
@@ -54,7 +54,7 @@
             // InputMat_label
             // 
             this.InputMat_label.AutoSize = true;
-            this.InputMat_label.Location = new System.Drawing.Point(68, 164);
+            this.InputMat_label.Location = new System.Drawing.Point(28, 164);
             this.InputMat_label.Name = "InputMat_label";
             this.InputMat_label.Size = new System.Drawing.Size(74, 13);
             this.InputMat_label.TabIndex = 2;
@@ -63,17 +63,17 @@
             // 
             // AddMore_Button
             // 
-            this.AddMore_Button.Location = new System.Drawing.Point(95, 230);
+            this.AddMore_Button.Location = new System.Drawing.Point(274, 159);
             this.AddMore_Button.Name = "AddMore_Button";
             this.AddMore_Button.Size = new System.Drawing.Size(75, 23);
             this.AddMore_Button.TabIndex = 3;
-            this.AddMore_Button.Text = "Add more";
+            this.AddMore_Button.Text = "Add";
             this.AddMore_Button.UseVisualStyleBackColor = true;
             this.AddMore_Button.Click += new System.EventHandler(this.button1_Click);
             // 
             // Done_button
             // 
-            this.Done_button.Location = new System.Drawing.Point(213, 230);
+            this.Done_button.Location = new System.Drawing.Point(274, 359);
             this.Done_button.Name = "Done_button";
             this.Done_button.Size = new System.Drawing.Size(75, 23);
             this.Done_button.TabIndex = 4;
