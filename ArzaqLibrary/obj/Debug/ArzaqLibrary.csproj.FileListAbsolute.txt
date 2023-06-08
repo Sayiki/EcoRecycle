@@ -1,0 +1,12 @@
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\ArzaqLibrary\bin\Debug\ArzaqLibrary.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\ArzaqLibrary\bin\Debug\ArzaqLibrary.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\ArzaqLibrary\obj\Debug\ArzaqLibrary.csproj.AssemblyReference.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\ArzaqLibrary\obj\Debug\ArzaqLibrary.csproj.CoreCompileInputs.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\ArzaqLibrary\obj\Debug\ArzaqLibrary.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\ArzaqLibrary\obj\Debug\ArzaqLibrary.pdb
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\ArzaqLibrary\bin\Debug\ArzaqLibrary.dll
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\ArzaqLibrary\bin\Debug\ArzaqLibrary.pdb
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\ArzaqLibrary\obj\Debug\ArzaqLibrary.csproj.AssemblyReference.cache
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\ArzaqLibrary\obj\Debug\ArzaqLibrary.csproj.CoreCompileInputs.cache
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\ArzaqLibrary\obj\Debug\ArzaqLibrary.dll
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\ArzaqLibrary\obj\Debug\ArzaqLibrary.pdb

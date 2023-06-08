@@ -1,0 +1,6 @@
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\HermawanLibrary\bin\Debug\HermawanLibrary.dll
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\HermawanLibrary\bin\Debug\HermawanLibrary.pdb
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\HermawanLibrary\obj\Debug\HermawanLibrary.csproj.AssemblyReference.cache
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\HermawanLibrary\obj\Debug\HermawanLibrary.csproj.CoreCompileInputs.cache
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\HermawanLibrary\obj\Debug\HermawanLibrary.dll
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\HermawanLibrary\obj\Debug\HermawanLibrary.pdb

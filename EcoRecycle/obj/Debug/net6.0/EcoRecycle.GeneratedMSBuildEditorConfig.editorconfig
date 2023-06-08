@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EcoRecycle
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\Wawan\OneDrive\Documents\GitHub\EcoRecycle\EcoRecycle\
+=======
+build_property.ProjectDir = D:\kuliah\semester 4\konstruksi PL\EcoRecycle\EcoRecycle\
+>>>>>>> Stashed changes

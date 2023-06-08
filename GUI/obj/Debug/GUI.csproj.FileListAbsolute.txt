@@ -1,0 +1,33 @@
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.Form1.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\bin\Debug\GUI.exe.config
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\bin\Debug\GUI.exe
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\bin\Debug\GUI.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\bin\Debug\ArzaqLibrary.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\bin\Debug\ArzaqLibrary.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.exe
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI\obj\Debug\GUI.InputMaterialForm.resources
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.Form1.resources
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.homescreen.resources
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.InputMaterialForm.resources
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.exe
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.pdb
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\bin\Debug\GUI.exe.config
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\bin\Debug\GUI.exe
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\bin\Debug\GUI.pdb
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\bin\Debug\ArzaqLibrary.dll
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\bin\Debug\HermawanLibrary.dll
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\bin\Debug\ArzaqLibrary.pdb
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\bin\Debug\HermawanLibrary.pdb
+D:\kuliah\semester 4\konstruksi PL\EcoRecycle\GUI\obj\Debug\GUI.csproj.CopyComplete
