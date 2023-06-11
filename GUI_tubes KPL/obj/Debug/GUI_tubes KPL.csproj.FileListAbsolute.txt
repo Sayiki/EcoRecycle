@@ -1,0 +1,12 @@
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\bin\Debug\GUI_tubes KPL.exe.config
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\bin\Debug\GUI_tubes KPL.exe
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\bin\Debug\GUI_tubes KPL.pdb
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.AssemblyReference.cache
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.SuggestedBindingRedirects.cache
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.Properties.Resources.resources
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.GenerateResource.cache
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.CoreCompileInputs.cache
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.exe
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.pdb
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.dashboard.resources
+D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.hitungSampah.resources

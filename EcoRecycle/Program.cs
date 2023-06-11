@@ -13,6 +13,7 @@ class Program
         string ans = "";
         while (ans != "exit")
         {
+            
             Console.Write("Masukkan sampah (ketik 'exit' untuk keluar): ");
             ans = Console.ReadLine();
 
