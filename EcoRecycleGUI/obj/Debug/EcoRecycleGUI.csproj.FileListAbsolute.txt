@@ -1,0 +1,11 @@
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\bin\Debug\EcoRecycleGUI.exe.config
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\bin\Debug\EcoRecycleGUI.exe
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\bin\Debug\EcoRecycleGUI.pdb
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\obj\Debug\EcoRecycleGUI.csproj.AssemblyReference.cache
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\obj\Debug\EcoRecycleGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\obj\Debug\EcoRecycleGUI.Form1.resources
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\obj\Debug\EcoRecycleGUI.Properties.Resources.resources
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\obj\Debug\EcoRecycleGUI.csproj.GenerateResource.cache
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\obj\Debug\EcoRecycleGUI.csproj.CoreCompileInputs.cache
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\obj\Debug\EcoRecycleGUI.exe
+C:\Users\dhafg\OneDrive\Dokumen\GitHub\EcoRecycle\EcoRecycleGUI\obj\Debug\EcoRecycleGUI.pdb
