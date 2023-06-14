@@ -10,3 +10,17 @@ D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.exe
 D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.pdb
 D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.dashboard.resources
 D:\Folder kpl\tp9\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.hitungSampah.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\GUI_tubes KPL.exe.config
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\GUI_tubes KPL.exe
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\GUI_tubes KPL.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.AssemblyReference.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.SuggestedBindingRedirects.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.dashboard.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.hitungSampah.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.Properties.Resources.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.GenerateResource.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.CoreCompileInputs.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.exe
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.RegisterGUI.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.LihatPoin.resources

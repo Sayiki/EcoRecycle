@@ -58,13 +58,30 @@
     <Compile Include="hitungSampah.Designer.cs">
       <DependentUpon>hitungSampah.cs</DependentUpon>
     </Compile>
+    <Compile Include="LihatPoin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatPoin.Designer.cs">
+      <DependentUpon>LihatPoin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs" />
+    <Compile Include="RegisterGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterGUI.Designer.cs">
+      <DependentUpon>RegisterGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SampahData.cs" />
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="hitungSampah.resx">
       <DependentUpon>hitungSampah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatPoin.resx">
+      <DependentUpon>LihatPoin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -76,6 +93,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegisterGUI.resx">
+      <DependentUpon>RegisterGUI.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

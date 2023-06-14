@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycleTests3\\EcoRecycleTests3.csproj": {}
+    "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycleTests3\\EcoRecycleTests3.csproj": {}
   },
   "projects": {
-    "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycleTests3\\EcoRecycleTests3.csproj": {
+    "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycleTests3\\EcoRecycleTests3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycleTests3\\EcoRecycleTests3.csproj",
+        "projectUniqueName": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycleTests3\\EcoRecycleTests3.csproj",
         "projectName": "EcoRecycleTests3",
-        "projectPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycleTests3\\EcoRecycleTests3.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycleTests3\\obj\\",
+        "projectPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycleTests3\\EcoRecycleTests3.csproj",
+        "packagesPath": "C:\\Users\\arzaq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycleTests3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arzaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj": {
-                "projectPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj"
+              "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj": {
+                "projectPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj"
               }
             }
           }
@@ -81,17 +81,17 @@
         }
       }
     },
-    "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj": {
+    "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
+        "projectUniqueName": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
         "projectName": "EcoRecycle",
-        "projectPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Folder kpl\\tp9\\EcoRecycle\\EcoRecycle\\obj\\",
+        "projectPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
+        "packagesPath": "C:\\Users\\arzaq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arzaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
