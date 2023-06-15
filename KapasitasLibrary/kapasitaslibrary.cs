@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KapasitasLibrary
 {
-    public static class KapasitasHelper
+    public static class kapasitaslibrary
     {
         public static string UpdateTotalInput<T>(T total)
         {
