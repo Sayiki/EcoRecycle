@@ -1,4 +1,6 @@
-﻿namespace GUI
+SALAH﻿
+
+namespace GUI
 {
     partial class Login
     {
