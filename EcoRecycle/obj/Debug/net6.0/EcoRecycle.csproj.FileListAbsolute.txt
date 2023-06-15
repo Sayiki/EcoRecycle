@@ -31,3 +31,18 @@ D:\Folder kpl\tp9\EcoRecycle\EcoRecycle\obj\Debug\net6.0\refint\EcoRecycle.dll
 D:\Folder kpl\tp9\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.pdb
 D:\Folder kpl\tp9\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.genruntimeconfig.cache
 D:\Folder kpl\tp9\EcoRecycle\EcoRecycle\obj\Debug\net6.0\ref\EcoRecycle.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\bin\Debug\net6.0\EcoRecycle.exe
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\bin\Debug\net6.0\EcoRecycle.deps.json
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\bin\Debug\net6.0\EcoRecycle.runtimeconfig.json
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\bin\Debug\net6.0\EcoRecycle.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\bin\Debug\net6.0\EcoRecycle.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.csproj.AssemblyReference.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.AssemblyInfoInputs.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.AssemblyInfo.cs
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.csproj.CoreCompileInputs.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\refint\EcoRecycle.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\EcoRecycle.genruntimeconfig.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\EcoRecycle\obj\Debug\net6.0\ref\EcoRecycle.dll

@@ -16,7 +16,7 @@ namespace GUI_tubes_KPL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new dashboard());
+            Application.Run(new Login());
         }
     }
 }
