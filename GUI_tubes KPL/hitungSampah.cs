@@ -14,6 +14,7 @@ namespace GUI_tubes_KPL
 {
     public partial class hitungSampah : Form
     {
+
         public hitungSampah()
         {
             InitializeComponent();

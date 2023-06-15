@@ -14,6 +14,14 @@ namespace GUI_tubes_KPL
     {
         hitungSampah hs = new hitungSampah();
 
+        enum LogoutState
+        {
+            LoggedIn,
+            LoggingOut,
+            LoggedOut
+        }
+
+        LogoutState currentState = LogoutState.LoggedIn;
         public dashboard()
         {
             InitializeComponent();
@@ -26,20 +34,25 @@ namespace GUI_tubes_KPL
 
         private void button5_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin logout?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            // Memeriksa opsi yang dipilih pengguna
-            if (result == DialogResult.Yes)
+            // Gunakan switch case untuk menentukan tindakan berdasarkan state saat ini
+            switch (currentState)
             {
-                // Lakukan tindakan logout
-                // ...
-
-                MessageBox.Show("Anda telah logout.", "Logout", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (result == DialogResult.No)
-            {
-                // Batal logout
-                // ...
+                case LogoutState.LoggedIn:
+                    // Lakukan tindakan yang diperlukan saat tombol logout ditekan saat dalam kondisi logged in
+                    currentState = LogoutState.LoggingOut;
+                    // Lakukan proses logout di sini (misalnya, hapus session, hapus token, dll.)
+                    // Setelah logout berhasil, ubah state menjadi LoggedOut
+                    currentState = LogoutState.LoggedOut;
+                    break;
+                case LogoutState.LoggingOut:
+                    // Jika tombol logout ditekan saat sedang dalam proses logout, tidak melakukan apa-apa
+                    break;
+                case LogoutState.LoggedOut:
+                    // Jika tombol logout ditekan saat sudah logged out, bisa melakukan tindakan lain (misalnya, menampilkan pesan)
+                    MessageBox.Show("Anda sudah logout");
+                    break;
+                default:
+                    break;
             }
 
         }
