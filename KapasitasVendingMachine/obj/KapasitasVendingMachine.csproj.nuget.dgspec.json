@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj": {}
+    "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj": {
+    "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
+        "projectUniqueName": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
         "projectName": "KapasitasVendingMachine",
-        "projectPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
-        "packagesPath": "C:\\Users\\Wawan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wawan\\OneDrive\\Documents\\GitHub\\EcoRecycle\\KapasitasVendingMachine\\obj\\",
+        "projectPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\KapasitasVendingMachine\\KapasitasVendingMachine.csproj",
+        "packagesPath": "C:\\Users\\arzaq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\KapasitasVendingMachine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arzaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

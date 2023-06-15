@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uWAT7KLd1CZNZIlj0c3QWEbhRUh6uBRAKBKSH74hR9OH2K4RQvEydqFNn/oV+rGO6te+GYL2HEFn+tqBhAyVJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arzaq\\OneDrive\\Documents\\GUI\\EcoRecycle\\EcoRecycle\\EcoRecycle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arzaq\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
