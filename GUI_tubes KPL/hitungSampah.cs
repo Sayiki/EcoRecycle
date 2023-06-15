@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Contracts;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -118,6 +119,8 @@ namespace GUI_tubes_KPL
         {
             string kategori = "";
 
+            Contract.Requires(!string.IsNullOrEmpty(namaSampah));
+
             // Map input to categories
             switch (namaSampah.ToLower())
             {
@@ -137,8 +140,10 @@ namespace GUI_tubes_KPL
                     kategori = "Tidak diketahui";
                     break;
             }
+            Contract.Ensures(Contract.Result<int>() >= 0);
 
             return kategori;
+
         }
 
 
@@ -168,6 +173,8 @@ namespace GUI_tubes_KPL
 
         private void CalculateTotalSampah()
         {
+            Contract.Ensures(Contract.Result<int>() >= 0);
+
             int totalSampah = 0;
 
             // Iterate through the items in the ListView and sum up the nominal sampah values
@@ -182,6 +189,9 @@ namespace GUI_tubes_KPL
 
             // Display the total sampah in the label
             Total.Text = "Total Sampah: " + totalSampah.ToString();
+
+            Contract.Assert(totalSampah >= 0);
+
         }
 
         public System.Windows.Forms.ListView GetGarbageListView()
