@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using KapasitasLibrary;
 
 namespace GUI_tubes_KPL
 {
@@ -32,13 +33,9 @@ namespace GUI_tubes_KPL
             int totalSampah = hs.sampahDataList.Sum(data => data.NominalSampah);
 
             // Update the total sampah in the kapasitas form
-            UpdateTotalInput(totalSampah.ToString());
+            totalinput.Text = kapasitaslibrary.UpdateTotalInput(totalSampah);
         }
 
-        public void UpdateTotalInput<T>(T total)
-        {
-            totalinput.Text = "Total Sampah yang telah dimasukkan: " + total.ToString();
-        }
 
     }
 }

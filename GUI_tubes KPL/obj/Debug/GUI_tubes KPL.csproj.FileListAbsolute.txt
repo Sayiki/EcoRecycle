@@ -32,3 +32,5 @@ C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tub
 C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\Newtonsoft.Json.dll
 C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\Newtonsoft.Json.xml
 C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.EditProfile.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\KapasitasLibrary.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\KapasitasLibrary.pdb

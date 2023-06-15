@@ -119,7 +119,7 @@ namespace GUI_tubes_KPL
         {
             string kategori = "";
 
-            Contract.Requires(!string.IsNullOrEmpty(namaSampah));
+            Contract.Requires(!string.IsNullOrEmpty(namaSampah)); // Precondition: namaSampah cannot be empty.
 
             // Map input to categories
             switch (namaSampah.ToLower())

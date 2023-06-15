@@ -1,0 +1,6 @@
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\KapasitasLibrary\bin\Debug\KapasitasLibrary.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\KapasitasLibrary\bin\Debug\KapasitasLibrary.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\KapasitasLibrary\obj\Debug\KapasitasLibrary.csproj.AssemblyReference.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\KapasitasLibrary\obj\Debug\KapasitasLibrary.csproj.CoreCompileInputs.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\KapasitasLibrary\obj\Debug\KapasitasLibrary.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\KapasitasLibrary\obj\Debug\KapasitasLibrary.pdb

@@ -12,9 +12,17 @@ namespace GUI_tubes_KPL
 {
     public partial class EditProfile : Form
     {
+        private enum TextBoxType
+        {
+            Nama,
+            Email,
+            Sandi
+        }
+
         public EditProfile()
         {
             InitializeComponent();
+            textsandi.PasswordChar = '*';
         }
 
         private void EditProfile_Load(object sender, EventArgs e)
@@ -38,12 +46,28 @@ namespace GUI_tubes_KPL
 
                 MessageBox.Show("Successfully edited profile!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                textnama.Text = "";
-                textemail.Text = "";
-                textsandi.Text = "";
+                ClearTextbox(TextBoxType.Nama);
+                ClearTextbox(TextBoxType.Email);
+                ClearTextbox(TextBoxType.Sandi);
             }
         }
- 
+
+        private void ClearTextbox(TextBoxType textBoxType)
+        {
+            switch (textBoxType)
+            {
+                case TextBoxType.Nama:
+                    textnama.Text = "";
+                    break;
+                case TextBoxType.Email:
+                    textemail.Text = "";
+                    break;
+                case TextBoxType.Sandi:
+                    textsandi.Text = "";
+                    break;
+            }
+        }
+
 
         private void textnama_TextChanged(object sender, EventArgs e)
         {

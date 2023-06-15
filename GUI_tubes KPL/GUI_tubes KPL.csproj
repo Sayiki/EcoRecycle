@@ -143,6 +143,10 @@
     <None Include="Resources\icon_register.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KapasitasLibrary\KapasitasLibrary.csproj">
+      <Project>{b24f9cd9-4ab3-425f-93e3-808d76cae281}</Project>
+      <Name>KapasitasLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Register\Register.csproj">
       <Project>{5b0e88b7-7623-470f-a363-045b67e62c0e}</Project>
       <Name>Register</Name>
