@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace GUI
 {
@@ -79,7 +80,8 @@ namespace GUI
                 { "plastic", 0 },
                 { "glass", 0 },
                 { "paper", 0 },
-                { "cardboard", 0 }
+                { "cardboard", 0 },
+                { "etc", 0 }
             };
         }
         private void AddPoints(string garbageType)
@@ -106,6 +108,18 @@ namespace GUI
 
             UpdatePointsLabel();
         }
+        private void UpdatePointsConfiguration(string garbageType, int points)
+        {
+            if (garbagePoints.ContainsKey(garbageType))
+            {
+                garbagePoints[garbageType] = points;
+                UpdatePointsLabel();
+            }
+            else
+            {
+                MessageBox.Show("Jenis sampah tidak valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         public MenghitungPoin()
         {
             InitializeComponent();
@@ -122,6 +136,7 @@ namespace GUI
         {
             // jenis sampah plastic
             AddPoints("plastic");
+
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -137,6 +152,22 @@ namespace GUI
         {
             // jenis sampah cardboard
             AddPoints("cardboard");
+        }
+        private void button8_Click(object sender, EventArgs e)
+        {
+            // jenis sampah lainnya
+            AddPoints("etc");
+
+            // Mengambil nilai konfigurasi dari TextBox
+            if (int.TryParse(textBox1.Text, out int newPoints))
+            {
+                // Mengubah konfigurasi poin sampah aluminium saat runtime
+                UpdatePointsConfiguration("etc", newPoints);
+            }
+            else
+            {
+                MessageBox.Show("Masukkan angka yang valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         private void label1_Click(object sender, EventArgs e)
         {
@@ -155,6 +186,10 @@ namespace GUI
         {
             // merupakan hanya tulisan "Thank you for disposing of trash properly!"
         }
+        private void label5_Click(object sender, EventArgs e)
+        {
+            // Merupakan hanya tulisan edit points
+        }
         private void button7_Click(object sender, EventArgs e)
         {
             // kalimat clear untuk me-reset total poin yang sudah didapatkan
@@ -164,6 +199,19 @@ namespace GUI
         {
             // kelimat exit untuk keluar dari tampilan
             Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (int.TryParse(textBox1.Text, out int newPoints))
+            {
+                // Mengubah konfigurasi poin sampah aluminium saat runtime
+                UpdatePointsConfiguration("etc", newPoints);
+            }
+            else
+            {
+                MessageBox.Show("Masukkan angka yang valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
