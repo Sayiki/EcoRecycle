@@ -205,7 +205,7 @@ namespace GUI
         {
             if (int.TryParse(textBox1.Text, out int newPoints))
             {
-                // Mengubah konfigurasi poin sampah aluminium saat runtime
+                // Mengubah konfigurasi poin sampah lainnya saat runtime
                 UpdatePointsConfiguration("etc", newPoints);
             }
             else
