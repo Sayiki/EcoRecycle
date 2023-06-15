@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Contracts;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -63,6 +64,8 @@ namespace GUI_tubes_KPL
 
         private int CalculatePoin(string kategoriSampah, int nominalSampah)
         {
+            Contract.Requires(!string.IsNullOrEmpty(kategoriSampah)); // Precondition
+
             int poin = 0;
 
             // Calculate points based on the category
@@ -85,7 +88,10 @@ namespace GUI_tubes_KPL
                     break;
             }
 
+            Contract.Ensures(poin >= 0); // Postcondition
+
             return poin;
+
         }
 
         public void SetSampahDataList(List<SampahData> data)

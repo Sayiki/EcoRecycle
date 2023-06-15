@@ -93,6 +93,7 @@
             this.listoutput.TabIndex = 7;
             this.listoutput.UseCompatibleStateImageBehavior = false;
             this.listoutput.View = System.Windows.Forms.View.Details;
+            this.listoutput.SelectedIndexChanged += new System.EventHandler(this.listoutput_SelectedIndexChanged);
             // 
             // Total
             // 

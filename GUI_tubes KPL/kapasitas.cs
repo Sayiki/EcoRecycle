@@ -35,9 +35,9 @@ namespace GUI_tubes_KPL
             UpdateTotalInput(totalSampah.ToString());
         }
 
-        public void UpdateTotalInput(string total)
+        public void UpdateTotalInput<T>(T total)
         {
-            totalinput.Text = "Total Sampah yang telah dimasukkan: " + total;
+            totalinput.Text = "Total Sampah yang telah dimasukkan: " + total.ToString();
         }
 
     }
