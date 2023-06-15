@@ -177,21 +177,28 @@ namespace GUI_tubes_KPL
 
             int totalSampah = 0;
 
-            // Iterate through the items in the ListView and sum up the nominal sampah values
+            Dictionary<ListViewItem, int> table = new Dictionary<ListViewItem, int>();
+
+            // Populate the table with the ListView items and their nominal sampah values
             foreach (ListViewItem item in listoutput.Items)
             {
                 int nominalSampah;
                 if (int.TryParse(item.SubItems[2].Text, out nominalSampah))
                 {
-                    totalSampah += nominalSampah;
+                    table.Add(item, nominalSampah);
                 }
+            }
+
+            // Iterate over the table and sum up the nominal sampah values
+            foreach (var pair in table)
+            {
+                totalSampah += pair.Value;
             }
 
             // Display the total sampah in the label
             Total.Text = "Total Sampah: " + totalSampah.ToString();
 
             Contract.Assert(totalSampah >= 0);
-
         }
 
         public System.Windows.Forms.ListView GetGarbageListView()

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.editprofilebtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnlogout = new System.Windows.Forms.Button();
             this.btnkapasitas = new System.Windows.Forms.Button();
@@ -36,7 +37,6 @@
             this.btnhitung = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.welcome = new System.Windows.Forms.Label();
-            this.editprofilebtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +56,16 @@
             this.panel1.Size = new System.Drawing.Size(108, 382);
             this.panel1.TabIndex = 0;
             // 
+            // editprofilebtn
+            // 
+            this.editprofilebtn.Location = new System.Drawing.Point(11, 263);
+            this.editprofilebtn.Name = "editprofilebtn";
+            this.editprofilebtn.Size = new System.Drawing.Size(89, 33);
+            this.editprofilebtn.TabIndex = 3;
+            this.editprofilebtn.Text = "Edit Profile";
+            this.editprofilebtn.UseVisualStyleBackColor = true;
+            this.editprofilebtn.Click += new System.EventHandler(this.editprofilebtn_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -70,10 +80,10 @@
             // 
             // btnlogout
             // 
-            this.btnlogout.Location = new System.Drawing.Point(11, 207);
+            this.btnlogout.Location = new System.Drawing.Point(11, 225);
             this.btnlogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnlogout.Name = "btnlogout";
-            this.btnlogout.Size = new System.Drawing.Size(89, 19);
+            this.btnlogout.Size = new System.Drawing.Size(89, 33);
             this.btnlogout.TabIndex = 1;
             this.btnlogout.Text = "Logout";
             this.btnlogout.UseVisualStyleBackColor = true;
@@ -84,7 +94,7 @@
             this.btnkapasitas.Location = new System.Drawing.Point(11, 184);
             this.btnkapasitas.Margin = new System.Windows.Forms.Padding(2);
             this.btnkapasitas.Name = "btnkapasitas";
-            this.btnkapasitas.Size = new System.Drawing.Size(89, 19);
+            this.btnkapasitas.Size = new System.Drawing.Size(89, 37);
             this.btnkapasitas.TabIndex = 1;
             this.btnkapasitas.Text = "Kapasitas";
             this.btnkapasitas.UseVisualStyleBackColor = true;
@@ -92,10 +102,10 @@
             // 
             // btnpoin
             // 
-            this.btnpoin.Location = new System.Drawing.Point(11, 159);
+            this.btnpoin.Location = new System.Drawing.Point(11, 146);
             this.btnpoin.Margin = new System.Windows.Forms.Padding(2);
             this.btnpoin.Name = "btnpoin";
-            this.btnpoin.Size = new System.Drawing.Size(89, 21);
+            this.btnpoin.Size = new System.Drawing.Size(89, 34);
             this.btnpoin.TabIndex = 1;
             this.btnpoin.Text = "Lihat Poin";
             this.btnpoin.UseVisualStyleBackColor = true;
@@ -103,10 +113,10 @@
             // 
             // btnhitung
             // 
-            this.btnhitung.Location = new System.Drawing.Point(11, 135);
+            this.btnhitung.Location = new System.Drawing.Point(11, 103);
             this.btnhitung.Margin = new System.Windows.Forms.Padding(2);
             this.btnhitung.Name = "btnhitung";
-            this.btnhitung.Size = new System.Drawing.Size(89, 20);
+            this.btnhitung.Size = new System.Drawing.Size(89, 39);
             this.btnhitung.TabIndex = 0;
             this.btnhitung.Text = "Hitung Sampah";
             this.btnhitung.UseVisualStyleBackColor = true;
@@ -132,16 +142,6 @@
             this.welcome.Size = new System.Drawing.Size(286, 16);
             this.welcome.TabIndex = 0;
             this.welcome.Text = "Welcome user, get started by clicking the menu";
-            // 
-            // editprofilebtn
-            // 
-            this.editprofilebtn.Location = new System.Drawing.Point(11, 231);
-            this.editprofilebtn.Name = "editprofilebtn";
-            this.editprofilebtn.Size = new System.Drawing.Size(89, 21);
-            this.editprofilebtn.TabIndex = 3;
-            this.editprofilebtn.Text = "Edit Profile";
-            this.editprofilebtn.UseVisualStyleBackColor = true;
-            this.editprofilebtn.Click += new System.EventHandler(this.editprofilebtn_Click);
             // 
             // dashboard
             // 
