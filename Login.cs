@@ -1,6 +1,4 @@
-SALAH
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,22 +37,22 @@ namespace GUI
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            // Merupakan hanya tulisan "Log In"
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            // Merupakan hanya tulisan "Please login to your akun"
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            // Merupakan hanya tulisan "Username"
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-
+            // Merupakan hanya tulisan "Password"
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
