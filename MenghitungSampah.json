@@ -13,6 +13,7 @@ namespace GUI
         public int glass { get; set; }
         public int paper { get; set; }
         public int cardboard { get; set; }
+        public int etc { get; set; }
     }
 }
 
