@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GUI
+{
+    public class MenghitungSampah
+    {
+        public int aluminum { get; set; }
+        public int plastic { get; set; }
+        public int glass { get; set; }
+        public int paper { get; set; }
+        public int cardboard { get; set; }
+    }
+}
+
