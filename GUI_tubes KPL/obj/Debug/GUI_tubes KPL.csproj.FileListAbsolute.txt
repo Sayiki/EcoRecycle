@@ -24,3 +24,10 @@ C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tub
 C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.pdb
 C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.RegisterGUI.resources
 C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.LihatPoin.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.kapasitas.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\Register.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\Register.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes KPL.csproj.CopyComplete
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\obj\Debug\GUI_tubes_KPL.Login.resources
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\GUI_tubes KPL\bin\Debug\Newtonsoft.Json.xml

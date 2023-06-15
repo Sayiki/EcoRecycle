@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GUI_tubes_KPL
+namespace Register
 {
     public class Register<T>
     {

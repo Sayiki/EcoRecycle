@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Register;
 
 namespace GUI_tubes_KPL
 {
@@ -51,6 +52,13 @@ namespace GUI_tubes_KPL
             {
                 MessageBox.Show("Input is invalid, please retry.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void loginbtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();   
         }
     }
 }

@@ -43,7 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(8, 76);
+            this.label1.Location = new System.Drawing.Point(33, 74);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 13);
@@ -52,7 +52,7 @@
             // 
             // textinput
             // 
-            this.textinput.Location = new System.Drawing.Point(127, 72);
+            this.textinput.Location = new System.Drawing.Point(152, 70);
             this.textinput.Margin = new System.Windows.Forms.Padding(2);
             this.textinput.Name = "textinput";
             this.textinput.Size = new System.Drawing.Size(207, 20);
@@ -62,7 +62,7 @@
             // btnenter
             // 
             this.btnenter.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnenter.Location = new System.Drawing.Point(283, 127);
+            this.btnenter.Location = new System.Drawing.Point(308, 125);
             this.btnenter.Margin = new System.Windows.Forms.Padding(2);
             this.btnenter.Name = "btnenter";
             this.btnenter.Size = new System.Drawing.Size(50, 19);
@@ -75,7 +75,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(147, 29);
+            this.label3.Location = new System.Drawing.Point(172, 27);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(97, 13);
@@ -86,7 +86,7 @@
             // 
             this.listoutput.GridLines = true;
             this.listoutput.HideSelection = false;
-            this.listoutput.Location = new System.Drawing.Point(20, 174);
+            this.listoutput.Location = new System.Drawing.Point(45, 172);
             this.listoutput.Margin = new System.Windows.Forms.Padding(2);
             this.listoutput.Name = "listoutput";
             this.listoutput.Size = new System.Drawing.Size(309, 163);
@@ -97,7 +97,7 @@
             // Total
             // 
             this.Total.AutoSize = true;
-            this.Total.Location = new System.Drawing.Point(20, 157);
+            this.Total.Location = new System.Drawing.Point(45, 155);
             this.Total.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Total.Name = "Total";
             this.Total.Size = new System.Drawing.Size(27, 13);
@@ -107,7 +107,7 @@
             // 
             // btnDeleteData
             // 
-            this.btnDeleteData.Location = new System.Drawing.Point(259, 345);
+            this.btnDeleteData.Location = new System.Drawing.Point(284, 343);
             this.btnDeleteData.Name = "btnDeleteData";
             this.btnDeleteData.Size = new System.Drawing.Size(75, 23);
             this.btnDeleteData.TabIndex = 9;
@@ -119,7 +119,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(8, 99);
+            this.label2.Location = new System.Drawing.Point(33, 97);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 13);
@@ -128,7 +128,7 @@
             // 
             // textnominal
             // 
-            this.textnominal.Location = new System.Drawing.Point(127, 96);
+            this.textnominal.Location = new System.Drawing.Point(152, 94);
             this.textnominal.Margin = new System.Windows.Forms.Padding(2);
             this.textnominal.Name = "textnominal";
             this.textnominal.Size = new System.Drawing.Size(207, 20);
@@ -139,7 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGreen;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(375, 380);
             this.Controls.Add(this.btnDeleteData);
             this.Controls.Add(this.Total);

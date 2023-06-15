@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,24 +29,29 @@ namespace GUI_tubes_KPL
             listpoin.Columns.Add("Nominal Sampah", 100);
             listpoin.Columns.Add("Poin", 100);
 
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "sampahData.json");
+
             // Deserialize the sampahDataList from the file
-            string filePath = "sampahData.dat"; // Update the file path to match the serialization path
             if (File.Exists(filePath))
             {
-                using (FileStream fs = new FileStream(filePath, FileMode.Open))
-                {
-                    BinaryFormatter formatter = new BinaryFormatter();
-                    sampahDataList = (List<SampahData>)formatter.Deserialize(fs);
-                }
+                string json = File.ReadAllText(filePath);
+                sampahDataList = JsonConvert.DeserializeObject<List<SampahData>>(json);
             }
 
-            // Display the sampahDataList in the ListView
-            foreach (SampahData sampahData in sampahDataList)
-            {
-                int poin = CalculatePoin(sampahData.KategoriSampah, sampahData.NominalSampah); // Calculate the points based on the category
+            // Get all distinct categories from the sampahDataList
+            var categories = sampahDataList.Select(s => s.KategoriSampah).Distinct();
 
-                ListViewItem item = new ListViewItem(sampahData.KategoriSampah);
-                item.SubItems.Add(sampahData.NominalSampah.ToString());
+            // Display the categories and their respective points in the ListView
+            foreach (var category in categories)
+            {
+                int totalNominal = sampahDataList
+                    .Where(s => s.KategoriSampah == category)
+                    .Sum(s => s.NominalSampah);
+
+                int poin = CalculatePoin(category, totalNominal); // Calculate the points based on the category
+
+                ListViewItem item = new ListViewItem(category);
+                item.SubItems.Add(totalNominal.ToString());
                 item.SubItems.Add(poin.ToString());
                 listpoin.Items.Add(item);
             }
@@ -53,6 +59,7 @@ namespace GUI_tubes_KPL
             int totalPoints = CalculateTotalPoints();
             totalPointsLabel.Text = "Total Points: " + totalPoints.ToString();
         }
+
 
         private int CalculatePoin(string kategoriSampah, int nominalSampah)
         {
@@ -99,6 +106,11 @@ namespace GUI_tubes_KPL
             return totalPoints;
         }
 
+        private void refreshbtn_Click(object sender, EventArgs e)
+        {
+            // Close the current instance of the form
+            this.Close();
+        }
     }
 }
 

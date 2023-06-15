@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoRecycleTests3", "EcoRecy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_tubes KPL", "GUI_tubes KPL\GUI_tubes KPL.csproj", "{C855DD68-9E87-4CB5-AC0F-62BEBF359DC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Register", "Register\Register.csproj", "{5B0E88B7-7623-470F-A363-045B67E62C0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C855DD68-9E87-4CB5-AC0F-62BEBF359DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C855DD68-9E87-4CB5-AC0F-62BEBF359DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C855DD68-9E87-4CB5-AC0F-62BEBF359DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0E88B7-7623-470F-A363-045B67E62C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0E88B7-7623-470F-A363-045B67E62C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0E88B7-7623-470F-A363-045B67E62C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0E88B7-7623-470F-A363-045B67E62C0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

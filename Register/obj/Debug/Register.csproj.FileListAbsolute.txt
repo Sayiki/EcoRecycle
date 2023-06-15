@@ -1,0 +1,9 @@
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\bin\Debug\Register.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\bin\Debug\Register.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\obj\Debug\Register.csproj.AssemblyReference.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\obj\Debug\Register.csproj.CoreCompileInputs.cache
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\obj\Debug\Register.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\obj\Debug\Register.pdb
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arzaq\OneDrive\Documents\GUI\EcoRecycle\Register\obj\Debug\Register.csproj.CopyComplete

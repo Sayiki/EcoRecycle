@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,7 @@ namespace GUI_tubes_KPL
     public partial class hitungSampah : Form
     {
 
-        private List<SampahData> sampahDataList = new List<SampahData>();
+        public List<SampahData> sampahDataList = new List<SampahData>();
         public hitungSampah()
         {
             InitializeComponent();
@@ -94,26 +95,22 @@ namespace GUI_tubes_KPL
             }
 
             // Specify the new file path
-            string newFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "sampahData.dat");
+            string newFilePath = Path.Combine(Application.StartupPath, "sampahData.json");
 
-            // Serialize the sampahDataList and save it to the new file path
-            using (FileStream stream = new FileStream(newFilePath, FileMode.Create))
-            {
-                BinaryFormatter formatter = new BinaryFormatter();
-                formatter.Serialize(stream, sampahDataList);
-            }
+            // Serialize the sampahDataList to JSON and save it to the new file path
+            string jsonData = JsonConvert.SerializeObject(sampahDataList);
+            File.WriteAllText(newFilePath, jsonData);
         }
 
-        private void LoadSampahData()
+        public void LoadSampahData()
         {
-            string filePath = "sampah_data.dat";
+            string filePath = Path.Combine(Application.StartupPath, "sampahData.json");
             if (File.Exists(filePath))
             {
-                using (FileStream stream = new FileStream(filePath, FileMode.Open))
-                {
-                    BinaryFormatter formatter = new BinaryFormatter();
-                    sampahDataList = (List<SampahData>)formatter.Deserialize(stream);
-                }
+                string jsonData = File.ReadAllText(filePath);
+
+                // Deserialize the JSON data to the sampahDataList
+                sampahDataList = JsonConvert.DeserializeObject<List<SampahData>>(jsonData);
             }
         }
 
@@ -143,6 +140,7 @@ namespace GUI_tubes_KPL
 
             return kategori;
         }
+
 
 
         private void hitungSampah_Load(object sender, EventArgs e)

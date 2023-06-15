@@ -38,6 +38,7 @@
             this.cpasswordText = new System.Windows.Forms.TextBox();
             this.username = new System.Windows.Forms.Label();
             this.registerbtn = new System.Windows.Forms.Button();
+            this.loginbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // email
@@ -106,13 +107,23 @@
             // 
             // registerbtn
             // 
-            this.registerbtn.Location = new System.Drawing.Point(159, 290);
+            this.registerbtn.Location = new System.Drawing.Point(223, 294);
             this.registerbtn.Name = "registerbtn";
             this.registerbtn.Size = new System.Drawing.Size(102, 33);
             this.registerbtn.TabIndex = 0;
             this.registerbtn.Text = "Register";
             this.registerbtn.UseVisualStyleBackColor = true;
             this.registerbtn.Click += new System.EventHandler(this.registerbtn_Click);
+            // 
+            // loginbtn
+            // 
+            this.loginbtn.Location = new System.Drawing.Point(90, 294);
+            this.loginbtn.Name = "loginbtn";
+            this.loginbtn.Size = new System.Drawing.Size(99, 33);
+            this.loginbtn.TabIndex = 8;
+            this.loginbtn.Text = "Login";
+            this.loginbtn.UseVisualStyleBackColor = true;
+            this.loginbtn.Click += new System.EventHandler(this.loginbtn_Click);
             // 
             // RegisterGUI
             // 
@@ -121,6 +132,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(442, 401);
+            this.Controls.Add(this.loginbtn);
             this.Controls.Add(this.registerbtn);
             this.Controls.Add(this.cpasswordText);
             this.Controls.Add(this.passwordText);
@@ -148,5 +160,6 @@
         private System.Windows.Forms.TextBox cpasswordText;
         private System.Windows.Forms.Label username;
         private System.Windows.Forms.Button registerbtn;
+        private System.Windows.Forms.Button loginbtn;
     }
 }

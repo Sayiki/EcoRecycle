@@ -9,6 +9,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 
 namespace GUI_tubes_KPL
 {
@@ -16,6 +17,7 @@ namespace GUI_tubes_KPL
     {
         hitungSampah hs = new hitungSampah();
         LihatPoin lp = new LihatPoin();
+        kapasitas kp = new kapasitas();
         private List<SampahData> sampahDataList = new List<SampahData>();
 
 
@@ -33,17 +35,27 @@ namespace GUI_tubes_KPL
             if (result == DialogResult.Yes)
             {
                 MessageBox.Show("Anda telah logout.", "Logout", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
+                this.Hide();
+                Login login = new Login();
+                login.Show();
             }
             else if (result == DialogResult.No)
             {
-
+                // nothing
             }
 
         }
 
         private void btnkapasitas_Click(object sender, EventArgs e)
         {
+            panel2.Controls.Clear();
+            kp = new kapasitas(); // Create a new instance of kapasitas
+            kp.TopLevel = false;
+            kp.FormBorderStyle = FormBorderStyle.None;
+            kp.Dock = DockStyle.Fill;
+
+            panel2.Controls.Add(kp);
+            kp.Show();
 
         }
 
@@ -61,24 +73,24 @@ namespace GUI_tubes_KPL
 
         private void dashboard_Load(object sender, EventArgs e)
         {
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "sampahData.json");
+
             // Deserialize the sampahDataList from the file
-            if (File.Exists("sampahData.dat"))
+            if (File.Exists(filePath))
             {
-                using (FileStream fs = new FileStream("sampahData.dat", FileMode.Open))
-                {
-                    BinaryFormatter formatter = new BinaryFormatter();
-                    sampahDataList = (List<SampahData>)formatter.Deserialize(fs);
-                }
+                string json = File.ReadAllText(filePath);
+                sampahDataList = JsonConvert.DeserializeObject<List<SampahData>>(json);
             }
-            
+
 
 
         }
 
         private void dashboard_FormClosing(object sender, FormClosingEventArgs e)
         {
-            string filePath = "sampahData.dat";
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "sampahData.json");
 
+            // Delete the JSON file if it exists
             if (File.Exists(filePath))
             {
                 try
@@ -87,7 +99,7 @@ namespace GUI_tubes_KPL
                 }
                 catch (IOException ex)
                 {
-                    MessageBox.Show("An error occurred while deleting the file: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("An error occurred while deleting the JSON file: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -110,19 +122,16 @@ namespace GUI_tubes_KPL
             SaveSampahData();
         }
 
-        private void Logout()
-        {
-            // Implementasikan logika logout sesuai kebutuhan
-        }
 
         private void btnpoin_Click(object sender, EventArgs e)
         {
             panel2.Controls.Clear();
+            lp = new LihatPoin(); // Create a new instance of LihatPoin
             lp.TopLevel = false;
             lp.FormBorderStyle = FormBorderStyle.None;
             lp.Dock = DockStyle.Fill;
 
-            // Pass the sampahDataList to the LihatPoin form
+            // Pass the sampahDataList to the new instance of LihatPoin
             lp.SetSampahDataList(sampahDataList);
 
             panel2.Controls.Add(lp);
