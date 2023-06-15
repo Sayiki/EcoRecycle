@@ -4,6 +4,12 @@ using System;
 using System.IO;
 using System.Reflection;
 
+enum MenuState
+{
+    MainMenu,
+    JenisSampahMenu
+}
+
 public class Program
 {
     private static void Main(string[] args)
@@ -28,11 +34,7 @@ public class Program
             {
                 case "1":
                     Console.WriteLine("Jenis sampah di vending machine");
-                    List<string> sampahList = new List<string> { "Organik", "Anorganik", "Sampah Berbahaya" };
-                    foreach (string sampah in sampahList)
-                    {
-                        Console.WriteLine(sampah);
-                    }
+                    JenisSampahDiVendingMachine();
                     break;
                 case "2":
                     Console.WriteLine("Edit profil");
@@ -72,7 +74,7 @@ public class Program
             string name = configuration.GetSection("Profile:Nama").Value;
             string email = configuration.GetSection("Profile:Email").Value;
             string password = configuration.GetSection("Profile:Password").Value;
-
+            
             // Display current profile data
             Console.WriteLine("Profil kamu sekarang:");
             Console.WriteLine($"Nama: {name}");
@@ -96,7 +98,7 @@ public class Program
             var json = JsonConvert.SerializeObject(configuration.GetChildren().ToList(), Formatting.Indented);
             string path = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
 
-
+            // Display update profile data
             Console.WriteLine();
             Console.WriteLine("Data berhasil di ubah!");
 
@@ -111,6 +113,57 @@ public class Program
         catch (Exception ex)
         {
             Console.WriteLine(ex.Message);
+        }
+    }    
+
+    private static MenuState currentState = MenuState.MainMenu;
+    private static void JenisSampahDiVendingMachine()
+    {       
+        // List jenis sampah di vending machine
+        List<string> sampahList = new List<string> { "Organik", "Anorganik", "Sampah Berbahaya" };
+
+        while (true)
+        {
+            Console.Clear();
+
+            if (currentState == MenuState.MainMenu)
+            {
+                Console.WriteLine("Jenis sampah di vending machine:");
+                for (int i = 0; i < sampahList.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {sampahList[i]}");
+                }
+                Console.WriteLine("0. Kembali ke menu utama");
+                Console.WriteLine();
+                Console.Write("Pilih nomor jenis sampah: ");
+
+                string input = Console.ReadLine();
+
+                if (int.TryParse(input, out int selectedOption))
+                {
+                    if (selectedOption >= 1 && selectedOption <= sampahList.Count)
+                    {
+                        Console.Clear();
+                        Console.WriteLine($"Anda memilih jenis sampah: {sampahList[selectedOption - 1]}");
+                        Console.WriteLine("Tekan Enter untuk kembali ke menu utama...");
+                        Console.ReadLine(); // Tunggu input Enter
+                    }
+                    else if (selectedOption == 0)
+                    {
+                        break; // Keluar dari perulangan dan kembali ke menu utama
+                    }
+                    else
+                    {
+                        Console.WriteLine("Pilihan tidak valid. Silakan coba lagi.");
+                        Console.ReadLine();
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Input tidak valid. Silakan coba lagi.");
+                    Console.ReadLine();
+                }
+            }
         }
     }
 
