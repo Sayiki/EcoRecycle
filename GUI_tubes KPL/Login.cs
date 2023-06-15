@@ -118,5 +118,10 @@ namespace GUI_tubes_KPL
                 }
             }
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

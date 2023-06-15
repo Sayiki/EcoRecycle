@@ -36,6 +36,7 @@
             this.btnhitung = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.welcome = new System.Windows.Forms.Label();
+            this.editprofilebtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -43,6 +44,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.editprofilebtn);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnlogout);
             this.panel1.Controls.Add(this.btnkapasitas);
@@ -131,6 +133,16 @@
             this.welcome.TabIndex = 0;
             this.welcome.Text = "Welcome user, get started by clicking the menu";
             // 
+            // editprofilebtn
+            // 
+            this.editprofilebtn.Location = new System.Drawing.Point(11, 231);
+            this.editprofilebtn.Name = "editprofilebtn";
+            this.editprofilebtn.Size = new System.Drawing.Size(89, 21);
+            this.editprofilebtn.TabIndex = 3;
+            this.editprofilebtn.Text = "Edit Profile";
+            this.editprofilebtn.UseVisualStyleBackColor = true;
+            this.editprofilebtn.Click += new System.EventHandler(this.editprofilebtn_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -160,5 +172,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label welcome;
+        private System.Windows.Forms.Button editprofilebtn;
     }
 }

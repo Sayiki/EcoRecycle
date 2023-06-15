@@ -18,7 +18,18 @@ namespace GUI_tubes_KPL
         hitungSampah hs = new hitungSampah();
         LihatPoin lp = new LihatPoin();
         kapasitas kp = new kapasitas();
+        EditProfile ep = new EditProfile();
         private List<SampahData> sampahDataList = new List<SampahData>();
+
+        enum LogoutState
+        {
+            LoggedIn,
+            LoggingOut,
+            LoggedOut
+        }
+
+        LogoutState currentState = LogoutState.LoggedIn;
+
 
 
         public dashboard()
@@ -30,19 +41,30 @@ namespace GUI_tubes_KPL
 
         private void btnlogout_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin logout?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            // Gunakan switch case untuk menentukan tindakan berdasarkan state saat ini
+            switch (currentState)
+            {
+                case LogoutState.LoggedIn:
+                    // Lakukan tindakan yang diperlukan saat tombol logout ditekan saat dalam kondisi logged in
+                    currentState = LogoutState.LoggingOut;
+                    // Lakukan proses logout di sini (misalnya, hapus session, hapus token, dll.)
+                    // Setelah logout berhasil, ubah state menjadi LoggedOut
+                    currentState = LogoutState.LoggedOut;
+                    break;
+                case LogoutState.LoggingOut:
+                    // Jika tombol logout ditekan saat sedang dalam proses logout, tidak melakukan apa-apa
+                    break;
+                case LogoutState.LoggedOut:
+                    // Jika tombol logout ditekan saat sudah logged out, bisa melakukan tindakan lain (misalnya, menampilkan pesan)
+                    MessageBox.Show("Anda sudah logout");
+                    this.Hide();
+                    Login login = new Login();
+                    login.Show();
+                    break;
+                default:
+                    break;
+            }
 
-            if (result == DialogResult.Yes)
-            {
-                MessageBox.Show("Anda telah logout.", "Logout", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Hide();
-                Login login = new Login();
-                login.Show();
-            }
-            else if (result == DialogResult.No)
-            {
-                // nothing
-            }
 
         }
 
@@ -141,6 +163,16 @@ namespace GUI_tubes_KPL
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void editprofilebtn_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            ep.TopLevel = false; // Set TopLevel property to false
+            ep.FormBorderStyle = FormBorderStyle.None; // Set FormBorderStyle property to None
+            ep.Dock = DockStyle.Fill; // Dock the new form inside the panel
+            panel2.Controls.Add(ep); // Add the new form to the panel's Controls collection
+            ep.Show(); // Show the new form
         }
     }
 }

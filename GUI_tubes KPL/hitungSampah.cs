@@ -203,7 +203,7 @@ namespace GUI_tubes_KPL
 
         private void btnDeleteData_Click(object sender, EventArgs e)
         {
-            string filePath = Path.Combine(Application.StartupPath, "sampahData.dat");
+            string filePath = Path.Combine(Application.StartupPath, "sampahData.json");
 
 
             try
